@@ -3,29 +3,65 @@
 <head>
   <meta charset="utf-8">
   <title>This is Mi</title>
+  <style>
+    /* header */
+    .header .nav {
+      border: 1px solid blue;
+      margin: 10px;
+    }
+
+    .header .nav ul {
+      padding-left: 0;
+      float: right;
+    }
+
+    .header .nav h2, .header .nav ul li{
+      display: inline-block;
+    }
+
+    .header .nav a {
+      text-decoration: none;
+      color: #fdcedd;
+    }
+
+    /* section */
+    .section {
+      border: 1px solid red;
+    }
+
+    /* section article */
+    .section .article {
+      border: 1px solid green;
+    }
+
+    /* footer */
+    .footer {
+      border: 1px solid blue;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <nav>
+  <header class="header">
+    <nav class="nav">
+      <h2><a href="index.html">This is Mi</a></h2>
       <ul>
-        <li>This is Mi</li>
-        <li>Introduction</li>
-        <li>Experience</li>
-        <li>Diary</li>
+        <li><a href="#">Introduction</a></li>
+        <li><a href="#">Experience</a></li>
+        <li><a href="#">Diary</a></li>
       </ul>
     </nav>
   </header>
 
-  <section>
-    <article>
+  <section class="section">
+    <article class="article">
       <p>안녕하세요. article 1입니다.</p>
     </article>
-    <article>
+    <article class="article">
       <p>안녕하세요... article 2입니다.</p>
     </article>
   </section>
 
-  <footer>
+  <footer class="footer">
     <p>copyright Park Kyungmi</p>
   </footer>
 </body>

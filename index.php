@@ -8,15 +8,3 @@ if (mysqli_connect_errno())
       echo "Connected";
   }
 ?>
-<!doctype HTML>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>This is Mi</title>
-</head>
-<body>
-  <header>
-    <h3>This is Mi</h1>
-  </header>
-</body>
-</html>
